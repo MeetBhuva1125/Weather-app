@@ -8,7 +8,7 @@ import requests
 import pytz
 #Application framework
 root=Tk()
-root.title("WEATHER APP")
+root.title("WEATHER")
 root.geometry("900x500+300+200")
 root.resizable(False,False)
 #Weather related functioning coding
