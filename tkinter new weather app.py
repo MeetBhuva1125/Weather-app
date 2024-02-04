@@ -28,7 +28,7 @@ def getWeather():
         name.config(text="Current Weather")
     
         #WEATHER IMP CODING
-        api="http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=a2458582f9a6d1ccd877271234ac20e6"
+        api="http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid= 'your api id' "
         json_data = requests.get(api).json()
         condition = json_data["weather"][0]["main"]
         description = json_data["weather"][0]["description"]
